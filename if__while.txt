@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+int main() {
+  /*
+int a;
+  cin>>a;
+  //cout<<"value of n is"<<n<<endl;
+  if(a>0){
+    cout<<"a is possitive"<<endl;
+  }
+  else{
+    cout<<"a is neg"<<endl;
+  }
+
+  int a ;
+  int b;
+  cout<<"print the value of a "<<endl;
+   cin>>a;
+  cout<<"print the value of a "<<endl;
+  cin>>b;
+
+  if(a>b){
+    cout<<" larger is "<<a<<endl;
+  }
+  else{
+    cout<<"larger is "<<b<<endl;
+   }
+  int a ;
+  cout<<"print the value of a "<<endl;
+   cin>>a;
+
+  if(a>0){
+    cout<<" possitive "<<a<<endl;
+  }
+ else{ if(a<0){
+    cout<<"negetive "<<a<<endl;
+  }
+  else{
+    cout<<"zero"<<a<<endl;
+  }
+}
+  */
+  int n;
+  cin>>n;
+  int sum = 0;
+  int i = 1;
+  while(i<=n){
+   i = i+1;
+   sum = sum+i;
+  } cout<<sum<<" "<<endl;
+}
